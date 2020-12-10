@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Digital Decay | Backend Books</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=3.0, minimum-scale=0.5">
+
+<!-- Libraries -->
+  <script src="lib/p5.min.js"></script>
+  <script src="lib/p5.dom.min.js"></script>
+    <script src="lib/p5.sound.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-analytics.js"></script>
+
+<!-- favicon -->
+
+
+</head>
+<body>
+
+  <div id="canvascontainer">
+  </div>
+
+  <div id="canvascontainer2">
+  </div>
+
+
+  <div id="loading">
+
+
+  <h1 id="intro">BB01
+    <br><br>
+    <span class="normal">A digital zine of sorts;</span> <br>
+
+an associative <span class="normal">(pseudo-intellectual)</span> visual exploration of the concept of digital decay.
+<br>
+...<br><br>
+<span  class="normal">You are visitor number: <span id="visitor">*calculating*</span></span>
+
+
+<br><br><span id="loadtext" c>
+Loading may take some time, please be patient.
+<br> <br>
+loading....</span>
+</h1>
+
+<span></span>
+    <img id="loadImg" src="img/pastoral.gif" alt="">
+
+
+
+
+</div>
+
+
+<div id="textContainer">
+
+  <img class="imgElement" src="img/dd-01.svg" alt="">
+  <h1 class="textElement">or</h1>
+  <img class="imgElement small" src="img/ds-02.png" alt="">
+  <img class="imgElement" src="img/trace-03.png" alt="">
+  <img class="imgElement" src="img/pipe-04.png" alt="">
+
+  <img class="imgElement" src="img/schema.png" alt="">
+  <img class="imgElement" src="img/message-16.png" alt="">
+  <img class="imgElement smaller" src="img/balloons.jpg" alt="">
+
+  <img class="imgElement" src="img/deca4.png" alt="">
+  <img class="imgElement" src="img/captorix-12.png" alt="">
+  <img class="imgElement smallest" src="img/incunable.gif" alt="">
+  <img class="imgElement" src="img/toolate.png" alt="">
+  <h1 class="textElement" id="bye">Bye</h1>
+
+</div>
+
+
+<script src="script.js"></script>
+<script src="borders.js"></script>
+
+</body>
+</html>
